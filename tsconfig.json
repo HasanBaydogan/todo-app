@@ -1,9 +1,11 @@
 {
-    "compilerOptions": {
-      "target": "ES6",
-      "module": "ES6",
-      "strict": true,
-      "jsx": "react-jsx"
-    }
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2015"],
+    "jsx": "react",
+    "moduleResolution": "node",
+    
+    "esModuleInterop": true,
+    "strict": true
   }
-  
+}
